@@ -18,9 +18,9 @@ You gonna build a SPA application (using Angular framework) which will communica
 
 #### 1. Landing page
 - User should be able to see search input with a placeholder
-- Bellow search input should be a groud of most active companies. Data could be fetched [from this end point](https://api.iextrading.com/1.0/stock/market/list/mostactive)
+- Bellow search input should be a section of gainer companies. Data could be fetched [from this end point](https://api.iextrading.com/1.0/stock/market/list/gainers)
 
-Basic mockup: 
+Basic mockup:  
 ![langing page image](challenge_search-main_screen.png)
 
 
@@ -31,9 +31,19 @@ Basic mockup:
 - user could choose a suggested company from a list (via keyboard or mouse)
 - user should be navigated to a company page if it were choosen
 
-Basic mockup: 
-![langing page image](challenge_search-search_autosuggets.png)
+Basic mockup:  
+![search autosuggest](challenge_search-search_autosuggets.png)
 
+#### 1.2 Company card
+
+- User should be able to see a:
+  - `symbol`
+  - `company name`
+  - `price change`
+  - `last price`
+
+Basic mockup:  
+![company widget](challenge_search-gainer_company.png)
 
 #### 2. Company page
 
@@ -45,5 +55,5 @@ Basic mockup:
   - company quote info [API docs](https://iextrading.com/developer/docs/#quote)
 
 
-Basic mockup: 
-![langing page image](challenge_search-_company_{symbol}.png)
+Basic mockup:  
+![company page](challenge_search-_company_{symbol}.png)
