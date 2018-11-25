@@ -1,4 +1,11 @@
-# Hiring event
+# Hiring event 🎉
+
+## Table of Contents
+* [Application](#stock-app)
+    * [Requirments](#requirments)
+    * [Workflows](#workflows)
+* [Browser Support](#browser-support)
+* [FAQ](#faq)
 
 ## Stock app
 
@@ -57,3 +64,8 @@ Basic mockup:
 
 Basic mockup:  
 ![company page](challenge_search-_company_{symbol}.png)
+
+### Browser Support
+Any browser of your choise. Hope it whould be Chrome 😂
+
+### FAQ
