@@ -9,7 +9,7 @@
     * [Search input](#11-search-input)
     * [Company card](#12-company-card)
     * [Company page](#2-company-page)
-* [Where to get a data?](#where-to-get-a-data?)
+* [Where to get a data?](#where-to-get-a-data)
 * [Browser Support](#browser-support)
 * [FAQ](#faq)
 
