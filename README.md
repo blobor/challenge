@@ -4,6 +4,10 @@
 * [Application](#stock-app)
     * [Requirments](#requirments)
     * [Workflows](#workflows)
+        * [Landing page](#1-landing-page)
+        * [Search input](#1.1-search-input)
+        * [Company card](#1.2-company-card)
+        * [Company page](#2-company-page)
 * [Browser Support](#browser-support)
 * [FAQ](#faq)
 
