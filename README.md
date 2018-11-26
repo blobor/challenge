@@ -3,7 +3,7 @@
 ## Table of Contents
 
 * [Application](#stock-app)
-  * [Requirments](#requirments)
+  * [Requirements](#requirements)
   * [Workflows](#workflows)
     * [Landing page](#1-landing-page)
     * [Search input](#11-search-input)
@@ -17,13 +17,13 @@
 
 You gonna build a SPA application (using Angular framework) which will communicate with open IEX Trading API and help user get some data about companies.
 
-### Requirments
+### Requirements
 
 * should use Angular framework (currently it's version 7)
 * data should be gathered from [`IEX Trading API`](https://iextrading.com/developer/docs/)
 * all requests and async actions should be done via RxJS
-* for navigation between pages use `@angular/router` (or any prefered)
-* every async iteraction with a API should be show user a loading spinner
+* for navigation between pages use `@angular/router` (or any preferred)
+* every async interaction with a API should be show user a loading spinner
 * you free to use any styling framework
 * app should be responsive with at least 3 media break points
 * tests are optional (but is plus)
@@ -36,14 +36,14 @@ You gonna build a SPA application (using Angular framework) which will communica
 * Bellow search input should be a section of gainer companies.
 
 Basic mockup:  
-![langing page image](challenge_search-main_screen.png)
+![landing page image](challenge_search-main_screen.png)
 
 #### 1.1 Search input
 
 * User should be able to type [company ticker symbol](https://en.wikipedia.org/wiki/Ticker_symbol) like (AAPL, GOOG)
-* Search component should show suggentions (like a google autocomplete).
+* Search component should show suggestions (like a google autocomplete).
 * user could choose a suggested company from a list (via keyboard or mouse)
-* user should be navigated to a company page if it were choosen
+* user should be navigated to a company page if it were chosen
 
 Basic mockup:  
 ![search autosuggest](challenge_search-search_autosuggets.png)
@@ -64,7 +64,7 @@ Basic mockup:
 
 * use `company/{symbol}` route for this page
 * user should be able to see detailed company description with a logo
-* and of course detailed financial info 😉 
+* and of course detailed financial info 😉
 
 Basic mockup:  
 ![company page](challenge_search-_company_{symbol}.png)
@@ -205,6 +205,6 @@ This is list of endpoints which You have to use:
 
 ### Browser Support
 
-Any browser of your choise. Hope it whould be Chrome 😂
+Any browser of your choice. Hope it would be Chrome 😂
 
 ### FAQ
