@@ -9,6 +9,7 @@
     * [Search input](#11-search-input)
     * [Company card](#12-company-card)
     * [Company page](#2-company-page)
+  * [Evaluation](#evaluation)
 * [Where to get a data?](#where-to-get-a-data)
 * [Browser Support](#browser-support)
 * [FAQ](#faq)
@@ -68,6 +69,25 @@ Basic mockup:
 
 Basic mockup:  
 ![company page](challenge_search-_company_{symbol}.png)
+
+### Evaluation
+
+| Story         | Task         | Points | Criteria                                                                                                                |
+|---------------|--------------|--------|-------------------------------------------------------------------------------------------------------------------------|
+| Global layout |              |        |                                                                                                                         |
+|               | Logo         | 5      | Click will redirect to Landing page                                                                                     |
+|               | Search bar   | 25     | 10 points for basic submit and redirect to company page.                                                                |
+|               |              |        | 25 points for autosuggest component which show relevant TOP 5                                                           |
+|               |              |        |                                                                                                                         |
+| Landing page  |              |        |                                                                                                                         |
+|               | Responsive   | 5      | Support desktop (1920p) and mobile (360p) breakpoints                                                                   |
+|               | Company list | 30     | 20 show list of companies + 10 support click with routing to company page                                               |
+|               |              |        |                                                                                                                         |
+| Company page  |              |        |                                                                                                                         |
+|               | Responsive   | 5      | Support desktop (1920p) and mobile (360p) breakpoints                                                                   |
+|               | Company info | 30     | Show all of the fields as on mockup                                                                                     |
+|               |              |        |                                                                                                                         |
+|               | Total:       | 100    |                                                                                                                         |
 
 ### Where to get a data?
 
