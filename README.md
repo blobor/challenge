@@ -13,6 +13,7 @@
 * [Where to get a data?](#where-to-get-a-data)
 * [Browser Support](#browser-support)
 * [FAQ](#faq)
+* [Useful scripts](#useful-scripts)
 
 ## Stock app
 
@@ -20,7 +21,7 @@ You gonna build a SPA application (using Angular framework) which will communica
 
 ### Requirements
 
-* should use Angular framework (currently it's version 7)
+* should use Angular framework (currently it's version 7) with [@angular/cli](https://cli.angular.io/)
 * data should be gathered from [`IEX Trading API`](https://iextrading.com/developer/docs/)
 * all requests and async actions should be done via RxJS
 * for navigation between pages use `@angular/router` (or any preferred)
@@ -28,6 +29,7 @@ You gonna build a SPA application (using Angular framework) which will communica
 * you free to use any styling framework
 * app should be responsive with at least 3 media break points
 * tests are optional (but is plus)
+* default commands from [@angular/cli](https://cli.angular.io/) should not be modified, as them will be used for project evaluation.
 
 ### Workflows
 
@@ -228,3 +230,32 @@ This is list of endpoints which You have to use:
 Any browser of your choice. Hope it would be Chrome 😂
 
 ### FAQ
+
+### Useful scripts
+Useful scripts from [@angular/cli](https://cli.angular.io/)  could be useful for current task implementation.
+ 
+ To generate an Angular project via a development server:
+```js
+ng new stocks-app
+```
+To start project
+```js
+ng serve
+```
+To run project tests
+```js
+ng test
+```
+To run linter
+```js
+ng lint
+```
+To generate component
+```js
+ng generate component [name]
+```
+To generate service
+```js
+ng generate service [name]
+```
+Other usefull scripts from [@angular/cli](https://cli.angular.io/) can be found [here](hhttps://angular.io/cli).
